@@ -1,0 +1,29 @@
+/*ボタン*/
+.square_btn {
+    display: inline-block;
+    padding: 0.3em 1em;
+    margin: 50px;
+    text-decoration: none;
+    color: black;
+    border: solid 2px black;
+    border-radius: 3px;
+    transition: .4s;
+}
+.square_btn:hover {
+    background: #67c5ff;
+    color: white;
+}
+
+/*変わる数字*/
+#view{
+    color: black;
+    margin: 1px;
+    font-size: 300%;
+}
+
+/*出た数字*/
+#out{
+    color: crimson;
+    margin: 1px;
+    font-size: 300%;
+}
